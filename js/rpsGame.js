@@ -18,50 +18,50 @@ play = document.querySelectorAll(".play").forEach(button => {
             tie++;
             result.textContent = "You Tied!";
             tieScoreDisplay.innerText = tie;
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
 
         } else if (userChoice == 1 & botChoice == 2) {
             botScore++;
             botScoreDisplay.innerText = botScore;
             result.textContent = "You Lost!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
 
         } else if (userChoice == 1 & botChoice == 3) {
             userScore++
             userScoreDisplay.innerText = userScore;
             result.textContent = "You won!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
 
         } else if (userChoice == 2 & botChoice == 1) {
             userScore++
             userScoreDisplay.innerText = userScore;
             result.textContent = "You won!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
             botImage.setAttribute("src", `images/${botChoice}.jpg`);
 
         } else if (userChoice == 2 & botChoice == 3) {
             botScore++;
             botScoreDisplay.innerText = botScore;
             result.textContent = "You Lost!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
 
         } else if (userChoice == 3 & botChoice == 1) {
             botScore++;
             botScoreDisplay.innerText = botScore;
             result.textContent = "You Lost!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
 
         } else if (userChoice == 3 & botChoice == 2) {
             userScore++
             userScoreDisplay.innerText = userScore;
             result.textContent = "You won!";
-            userImage.setAttribute("src", `images/${userChoice}.jpg`);
-            botImage.setAttribute("src", `images/${botChoice}.jpg`);
+            userImage.setAttribute("src", `images/${userChoice}.JPG`);
+            botImage.setAttribute("src", `images/${botChoice}.JPG`);
         }
 
         roundScore++;
