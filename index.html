@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="rpsGame.css">
+    <script src="https://kit.fontawesome.com/123aa91270.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h1 class="round">Round</h1>
+            <h1 class="roundScore">0</h1>
+        </div>
+        <!-- score container  -->
+        <div class="playersScore">
+            <div class="scoreContainer">
+                <p class="scoreTitle">Your Score:</p>
+                <p class="score userScore">0</p>
+            </div>
+            <div class="scoreContainer scoreTie">
+                <p class="scoreTitle">Tie:</p>
+                <p class="score" id="tie">0</p>
+            </div>
+            <div class="scoreContainer">
+                <p class="scoreTitle">Bot Score:</p>
+                <p class="score botScore">0</p>
+            </div>
+        </div>
+        <!-- images -->
+
+        <div class="main">
+            <div class="player user">
+                <h2 class="userSelection">User Choice</h2>
+                <img id="user-selected-img" src="images/2.JPG" alt="rock">
+            </div>
+            <div class="player messageContainer">
+                <p class="result">Good Luck!</p>
+            </div>
+            <div class="player bot">
+                <h2 class="botSelection">Bot Choice</h2>
+                <img id="bot-selected-Img" src="images/1.JPG" alt="scissors">
+            </div>
+        </div>
+
+        <!-- buttons  -->
+
+        <div class="buttons">
+            <div class="play" id="rock"><i class="fas fa-hand-rock" id="1"></i></div>
+            <div class="play" id="paper"><i class="fas fa-hand-paper" id="2"></i></div>
+            <div class="play" id="scissors"><i class="fas fa-hand-scissors" id="3"></i></div>
+        </div>
+
+        <footer>
+            <p>&copy; Masoud Habibzad 2020</p>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="rpsGame.js"></script>
+</body>
+
+</html>
