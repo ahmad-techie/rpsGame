@@ -10,7 +10,34 @@
 </head>
 
 <body>
-
+  <header class="header">
+    <h1 class="title">Rock Paper Scissors</h1>
+    <p>Rock beats Scissors - Scissors beats Paper - Paper beats Rock</p>
+  </header>
+  <main class="main">
+    <div class="resutls-container">
+      <div class="game-results">
+        <p class="">Round <span id="round">0</span></p>
+        <p class="">Your score <span id="human-score">0</span></p>
+        <p>Bot's score <span id="bot-score">0</span></p>
+      </div>
+    </div>
+    <div class="show-result" id="result">Round Result</div>
+    <div class="user-selection_container">
+      <button class="user-selection">
+        <i class="fas fa-hand-rock btn selection-icon" id="rock" aria-hidden="true"></i>
+      </button>
+      <button class="user-selection">
+        <i class="fas fa-hand-paper btn selection-icon" id="paper" aria-hidden="true"></i>
+      </button>
+      <button class="user-selection">
+        <i class="fas fa-hand-scissors btn selection-icon" id="scissors" aria-hidden="true"></i>
+      </button>
+    </div>
+  </main>
+  <footer class="copy">
+    <p>© Habibzad 2020 </p>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 
