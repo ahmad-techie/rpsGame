@@ -10,82 +10,55 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-  <header class="header">
-    <h1 class="title">Rock Paper Scissors</h1>
-    <p>Rock beats Scissors - Scissors beats Paper - Paper beats Rock</p>
-  </header>
-
-  <main class="main">
-    <div class="resutls-container">
-      <div class="game-results">
-        <p class="">Round <span id="round">0</span></p>
-        <p class="">Your score <span id="human-score">0</span></p>
-        <p>Bot's score <span id="bot-score">0</span></p>
+  <div class="container">
+    <div class="head">
+      <h1 class="round">Round</h1>
+      <h1 class="roundScore">0</h1>
+    </div>
+    <!-- score container  -->
+    <div class="playersScore">
+      <div class="scoreContainer">
+        <p class="scoreTitle">Your Score:</p>
+        <p class="score userScore">0</p>
+      </div>
+      <div class="scoreContainer scoreTie">
+        <p class="scoreTitle">Tie:</p>
+        <p class="score" id="tie">0</p>
+      </div>
+      <div class="scoreContainer">
+        <p class="scoreTitle">Bot Score:</p>
+        <p class="score botScore">0</p>
       </div>
     </div>
-    <div class="show-result" id="result">Round Result</div>
-    <div class="user-selection_container">
-      <button class="user-selection">
-        <i class="fas fa-hand-rock btn selection-icon" id="rock"></i>
-      </button>
-      <button class="user-selection">
-        <i class="fas fa-hand-paper btn selection-icon" id="paper"></i>
-      </button>
-      <button class="user-selection">
-        <i class="fas fa-hand-scissors btn selection-icon" id="scissors"></i>
-      </button>
-=======
+    <!-- images -->
 
-    <div class="container">
-        <div class="head">
-            <h1 class="round">Round</h1>
-            <h1 class="roundScore">0</h1>
-        </div>
-        <!-- score container  -->
-        <div class="playersScore">
-            <div class="scoreContainer">
-                <p class="scoreTitle">Your Score:</p>
-                <p class="score userScore">0</p>
-            </div>
-            <div class="scoreContainer scoreTie">
-                <p class="scoreTitle">Tie:</p>
-                <p class="score" id="tie">0</p>
-            </div>
-            <div class="scoreContainer">
-                <p class="scoreTitle">Bot Score:</p>
-                <p class="score botScore">0</p>
-            </div>
-        </div>
-        <!-- images -->
-
-        <div class="main">
-            <div class="player user">
-                <h2 class="userSelection">Your Choice</h2>
-                <img id="user-selected-img" src="images/2.JPG" alt="rock">
-            </div>
-            <div class="player messageContainer">
-                <p class="result">Good Luck!</p>
-            </div>
-            <div class="player bot">
-                <h2 class="botSelection">Bot Choice</h2>
-                <img id="bot-selected-Img" src="images/1.JPG" alt="scissors">
-            </div>
-        </div>
-
-        <!-- buttons  -->
-
-        <div class="buttons">
-            <div class="play" id="rock"><i class="fas fa-hand-rock" id="1"></i></div>
-            <div class="play" id="paper"><i class="fas fa-hand-paper" id="2"></i></div>
-            <div class="play" id="scissors"><i class="fas fa-hand-scissors" id="3"></i></div>
-        </div>
-
-        <footer>
-            <p>&copy; Ahmad Habibzad 2020</p>
-        </footer>
->>>>>>> bf59f927fdd85ad4b6215fcdef291ceb68b13d2e
+    <div class="main">
+      <div class="player user">
+        <h2 class="userSelection">Your Choice</h2>
+        <img id="user-selected-img" src="images/2.JPG" alt="rock">
+      </div>
+      <div class="player messageContainer">
+        <p class="result">Good Luck!</p>
+      </div>
+      <div class="player bot">
+        <h2 class="botSelection">Bot Choice</h2>
+        <img id="bot-selected-Img" src="images/1.JPG" alt="scissors">
+      </div>
     </div>
+
+    <!-- buttons  -->
+
+    <div class="buttons">
+      <div class="play" id="rock"><i class="fas fa-hand-rock" id="1"></i></div>
+      <div class="play" id="paper"><i class="fas fa-hand-paper" id="2"></i></div>
+      <div class="play" id="scissors"><i class="fas fa-hand-scissors" id="3"></i></div>
+    </div>
+
+    <footer>
+      <p>&copy; Ahmad Habibzad 2020</p>
+    </footer>
+    >>>>>>> bf59f927fdd85ad4b6215fcdef291ceb68b13d2e
+  </div>
   </main>
 
   <footer class="copy">
