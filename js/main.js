@@ -2,7 +2,6 @@ const btn = document.querySelectorAll(".btn");
 let userChoice, botChoice, round = 0, humanScore = 0, botScore = 0, gameOver = false;
 const result = document.querySelector("#result");
 const showRound = document.querySelector("#round");
-// const showBotChoice = document.querySelector("#bot-choice");
 const showHumanScore = document.querySelector("#human-score");
 const showBotScore = document.querySelector("#bot-score");
 
