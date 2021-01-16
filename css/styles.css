@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Teko:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg: #fcf8de;
+    --fc-redish: #db524d;
+    --fc-grayish: #5e5e5e;
+}
+
+body{
+    background-color: var(--bg);
+    font-family: 'Teko', cursive;
+    color: var(--fc-primary);
+}
+
+header,
+main{
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--primary-color);
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+.title{
+    font-family: 'Righteous', cursive;
+    color: var(--fc-redish);
+}
+
+p{
+    line-height: 1.5em;
+    padding: 0.5em;
+    font-size: 30px;
+}
+
+span{
+  color: var(--fc-redish)
+}
+
+.btn{
+    color: var(--primary-color);
+    font-size: 5rem;
+    padding: 0.5em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-selection_container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+    margin-top: 1em;
+   }
+
+   .user-selection {
+    background-color: transparent;
+    border: none;
+  }
+
+  .user-selection:focus {
+    outline: none;
+  }
+
+  .selection-icon {
+    margin: 50px 0;
+    color: var(--fc-redish);
+    font-size: 70px;
+    transition: all .3s linear;
+  }
+
+  .selection-icon:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  .resutls-container {
+    display: flex;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+    transition: all .2s linear;
+  }
+
+  .bot-title {
+    margin: 19px 0 -30px 19px;
+    font-size: 19px;
+    padding: 0.5em;
+  }
+
+  .bot-icon {
+    /* margin: 0.5em; */
+    color: var(--fc-grayish);
+    font-size: 70px;
+  }
+
+  .game-results {
+    margin: 0 20px;
+    font-size: 19px;
+  }
+
+  .play-again {
+    visibility: hidden;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 25px;
+    color: #5e5e5e;
+    border: 4px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all .2s linear;
+  }
+  .play-again:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .copy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 4px solid var(--fc-grayish);
+    text-align: center;
+  }
+
+  .red{
+    color: red;
+  }
+
+  .green{
+    color: green;
+  }
+
+  .blue{
+    color: blue;
+  }
+
+  .show-result{
+    font-size: 2rem;
+    text-align: center;
+  }
